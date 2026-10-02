@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samantha | BSIT Game Development Portfolio</title>
+    <meta name="description"
+        content="Personal portfolio of Samantha - 4th Year BSIT Game Development student at UPHSL specializing in QA Testing, Visual Design, UI Layout, Blender 3D, and Adobe Animate.">
+
+    <!-- OpenGraph Metadata -->
+    <meta property="og:title" content="Samantha | BSIT Game Development Portfolio">
+    <meta property="og:description"
+        content="Showcasing Game UI Design, QA Testing, 3D Blender modeling, visual edits, and group projects in a soft dreamy pastel aesthetic.">
+    <meta property="og:type" content="website">
+
+    <!-- Google Fonts & Styles -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Animated Floating Pastel Canvas -->
+    <canvas id="bg-canvas"></canvas>
+
+    <!-- Floating Glass Navigation Bar -->
+    <div class="navbar-wrap">
+        <nav class="navbar" aria-label="Main Navigation">
+            <a href="#" class="nav-brand">
+                <span class="nav-brand-sparkle">✨</span>
+                <span>samantha<span class="gradient-text">.gamedev</span></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#works" class="nav-link">Works</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button id="theme-toggle-btn" class="theme-toggle-btn" aria-label="Toggle Theme"
+                    title="Toggle Dreamy Theme">🌙</button>
+            </div>
+        </nav>
+    </div>
+
+    <main>
+        <!-- Combined Unified About & Hero Section -->
+        <section id="about" class="section hero-section">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="hero-status-pill">
+                        <span class="status-dot"></span>
+                        <span>4th Year College Student</span>
+                    </div>
+
+                    <h1 class="hero-title">
+                        Hi, I'm <span class="gradient-text">Samantha</span> ✨
+                    </h1>
+
+                    <div class="hero-tagline">
+                        Designing • Visual Design • Game UI Design
+                    </div>
+
+                    <p class="hero-description">
+                        Welcome to my creative space! I'm a 4th-year BSIT Game Development student at UPHSL. I
+                        specialize in visual layout design, game UI design, 3D Blender asset creation,
+                        and Adobe Animate graphics.
+                    </p>
+
+                    <!-- Relevant Student Information Cards -->
+                    <div class="student-info-grid">
+                        <div class="info-chip-card">
+                            <div class="info-icon">🎓</div>
+                            <div>
+                                <div class="info-label">Year Level</div>
+                                <div class="info-val">4th Year Student</div>
+                            </div>
+                        </div>
+
+                        <div class="info-chip-card">
+                            <div class="info-icon">🎮</div>
+                            <div>
+                                <div class="info-label">Degree & Major</div>
+                                <div class="info-val">BSIT - Game Dev</div>
+                            </div>
+                        </div>
+
+                        <div class="info-chip-card">
+                            <div class="info-icon">🎨</div>
+                            <div>
+                                <div class="info-label">Core Tools</div>
+                                <div class="info-val">Blender, Canva, Adobe Animate</div>
+                            </div>
+                        </div>
+
+                        <div class="info-chip-card">
+                            <div class="info-icon">✨</div>
+                            <div>
+                                <div class="info-label">Focus Area</div>
+                                <div class="info-val">Visual & UI Design</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="hero-ctas">
+                        <a href="#works" class="btn btn-primary">
+                            <span>Explore My Works</span>
+                            <span>🎨</span>
+                        </a>
+                        <a href="assets/Samantha_Anahaw_CV.pdf" target="_blank" download="Samantha_Anahaw_CV.pdf" class="btn btn-secondary btn-cv-hero">
+                            <span>Download CV</span>
+                            <span>📄</span>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span>Get In Touch</span>
+                            <span>💬</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-visual">
+                    <div class="avatar-card-wrap">
+                        <div class="avatar-glow-ring"></div>
+                        <div class="avatar-card">
+                            <img src="assets/sam image.jpg" alt="Samantha Student Avatar" class="avatar-img">
+                            <div class="avatar-badge-tag">
+                                <span>🌸</span>
+                                <span>BSIT Game Dev Student</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider at bottom of section -->
+            <div class="subtle-divider"></div>
+        </section>
+
+        <!-- Works Section — Individual Creative Outputs (3 per row) -->
+        <section id="works" class="section">
+            <div class="container">
+                <div class="section-title-wrap">
+                    <div class="section-badge">
+                        <span>🎨</span>
+                        <span>Individual Outputs</span>
+                    </div>
+                    <h2 class="section-title">My Creative Works</h2>
+                    <p class="section-subtitle">A collection of 3D models, graphic designs, and creative activities
+                        created in Blender, Canva, Photoshop, and Adobe Animate.</p>
+                </div>
+
+                <!-- Filter Tabs -->
+                <div class="filter-tabs">
+                    <button class="filter-btn active" data-filter="all">All Works</button>
+                    <button class="filter-btn" data-filter="3d">3D Modeling</button>
+                    <button class="filter-btn" data-filter="graphic">Graphic Editing</button>
+                    <button class="filter-btn" data-filter="video">Video Editing</button>
+                </div>
+
+                <!-- Works Grid (3 Cards per line) -->
+                <div class="works-grid">
+
+                    <!-- 1. Product Advertisement -->
+                    <div class="glass-card work-card" data-category="graphic">
+                        <div class="work-thumb-wrap">
+                            <img src="assets/Advertisement Design.png" alt="Product Advertisement" class="work-thumb">
+                            <div class="work-expand-hint"><span>🔍</span><span>Click to expand</span></div>
+                        </div>
+                        <div class="work-content">
+                            <span class="work-category-badge">Graphic Editing</span>
+                            <h3 class="work-title">Product Advertisement</h3>
+                            <p class="work-desc">Commercial product promotional graphic & visual design layout.</p>
+                        </div>
+                    </div>
+
+                    <!-- 2. Birthday Invitation Design -->
+                    <div class="glass-card work-card" data-category="graphic">
+                        <div class="work-thumb-wrap">
+                            <img src="assets/Birthday Invitation Design.png" alt="Birthday Invitation Design"
+                                class="work-thumb">
+                            <div class="work-expand-hint"><span>🔍</span><span>Click to expand</span></div>
+                        </div>
+                        <div class="work-content">
+                            <span class="work-category-badge">Graphic Editing</span>
+                            <h3 class="work-title">Birthday Invitation Design</h3>
+                            <p class="work-desc">Custom aesthetic event invitation card design with visual vector
+                                artwork.</p>
+                        </div>
+                    </div>
+
+                    <!-- 3. Magazine Cover Design -->
+                    <div class="glass-card work-card" data-category="graphic">
+                        <div class="work-thumb-wrap">
+                            <img src="assets/Magazine Cover Design.png" alt="Magazine Cover Design" class="work-thumb">
+                            <div class="work-expand-hint"><span>🔍</span><span>Click to expand</span></div>
+                        </div>
+                        <div class="work-content">
+                            <span class="work-category-badge">Graphic Editing</span>
+                            <h3 class="work-title">Magazine Cover Design</h3>
+                            <p class="work-desc">Editorial layout design featuring custom typography & magazine cover
+                                hierarchy.</p>
+                        </div>
+                    </div>
+
+                    <!-- 4. Basic Chair Model -->
+                    <div class="glass-card work-card" data-category="3d">
+                        <div class="work-thumb-wrap">
+                            <img src="assets/Basic Chair Model Blender.png" alt="Basic Chair Model" class="work-thumb">
+                            <div class="work-expand-hint"><span>🔍</span><span>Click to expand</span></div>
+                        </div>
+                        <div class="work-content">
+                            <span class="work-category-badge">3D Modeling</span>
+                            <h3 class="work-title">Basic Chair Model</h3>
+                            <p class="work-desc">Stylized low-poly 3D furniture asset modeled and textured in Blender.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- 5. Frog Nature (Environment and Character Model) -->
+                    <div class="glass-card work-card" data-category="3d">
+                        <div class="work-thumb-wrap">
+                            <img src="assets/Blender Modeling and Rigging Exam.png"
+                                alt="Frog Nature Environment and Character Model" class="work-thumb">
+                            <div class="work-expand-hint"><span>🔍</span><span>Click to expand</span></div>
+                        </div>
+                        <div class="work-content">
+                            <span class="work-category-badge">3D Modeling</span>
+                            <h3 class="work-title">Frog Nature (Environment & Character)</h3>
+                            <p class="work-desc">Complete 3D nature scene featuring a stylized frog character model and
+                                surrounding environmental props.</p>
+                        </div>
+                    </div>
+
+                    <!-- 6. Bolo Model with Environment -->
+                    <div class="glass-card work-card" data-category="3d">
+                        <div class="work-thumb-wrap">
+                            <img src="assets/Bolo Model with Environment.png" alt="Bolo Model with Environment"
+                                class="work-thumb">
+                            <div class="work-expand-hint"><span>🔍</span><span>Click to expand</span></div>
+                        </div>
+                        <div class="work-content">
+                            <span class="work-category-badge">3D Modeling</span>
+                            <h3 class="work-title">Bolo Model with Environment</h3>
+                            <p class="work-desc">3D prop model of a traditional bolo knife set in an atmospheric
+                                environment scene.</p>
+                        </div>
+                    </div>
+
+                    <!-- 7. Candle Model -->
+                    <div class="glass-card work-card" data-category="3d">
+                        <div class="work-thumb-wrap">
+                            <img src="assets/Candle.png" alt="Candle Model" class="work-thumb">
+                            <div class="work-expand-hint"><span>🔍</span><span>Click to expand</span></div>
+                        </div>
+                        <div class="work-content">
+                            <span class="work-category-badge">3D Modeling</span>
+                            <h3 class="work-title">Candle Model</h3>
+                            <p class="work-desc">3D prop model of a candle with warm emissive light shaders modeled in
+                                Blender.</p>
+                        </div>
+                    </div>
+
+                    <!-- 8. Ceiling Lamp Model -->
+                    <div class="glass-card work-card" data-category="3d">
+                        <div class="work-thumb-wrap">
+                            <img src="assets/Ceiling Lamp.png" alt="Ceiling Lamp Model" class="work-thumb">
+                            <div class="work-expand-hint"><span>🔍</span><span>Click to expand</span></div>
+                        </div>
+                        <div class="work-content">
+                            <span class="work-category-badge">3D Modeling</span>
+                            <h3 class="work-title">Ceiling Lamp Model</h3>
+                            <p class="work-desc">Indoor 3D lighting fixture asset model crafted with wooden texture
+                                materials in Blender.</p>
+                        </div>
+                    </div>
+
+                    <!-- 9. Character Model -->
+                    <div class="glass-card work-card" data-category="3d">
+                        <div class="work-thumb-wrap">
+                            <img src="assets/Character Model.png" alt="Character Model" class="work-thumb">
+                            <div class="work-expand-hint"><span>🔍</span><span>Click to expand</span></div>
+                        </div>
+                        <div class="work-content">
+                            <span class="work-category-badge">3D Modeling</span>
+                            <h3 class="work-title">Character Model</h3>
+                            <p class="work-desc">Stylized 3D character mesh model created in Blender with clean
+                                topology.</p>
+                        </div>
+                    </div>
+
+                    <!-- 10. Chocolate Donut Model -->
+                    <div class="glass-card work-card" data-category="3d">
+                        <div class="work-thumb-wrap">
+                            <img src="assets/Chocolate Donut Model.png" alt="Chocolate Donut Model" class="work-thumb">
+                            <div class="work-expand-hint"><span>🔍</span><span>Click to expand</span></div>
+                        </div>
+                        <div class="work-content">
+                            <span class="work-category-badge">3D Modeling</span>
+                            <h3 class="work-title">Chocolate Donut Model</h3>
+                            <p class="work-desc">3D food asset model render featuring smooth glossy chocolate glaze.</p>
+                        </div>
+                    </div>
+
+                    <!-- 11. Lantern Model -->
+                    <div class="glass-card work-card" data-category="3d">
+                        <div class="work-thumb-wrap">
+                            <img src="assets/Lantern.png" alt="Lantern Model" class="work-thumb">
+                            <div class="work-expand-hint"><span>🔍</span><span>Click to expand</span></div>
+                        </div>
+                        <div class="work-content">
+                            <span class="work-category-badge">3D Modeling</span>
+                            <h3 class="work-title">Lantern Model</h3>
+                            <p class="work-desc">3D traditional lantern prop model with warm luminous internal light
+                                shader.</p>
+                        </div>
+                    </div>
+
+                    <!-- 12. Simple Barrel Model -->
+                    <div class="glass-card work-card" data-category="3d">
+                        <div class="work-thumb-wrap">
+                            <img src="assets/Simple Barrel Model.png" alt="Simple Barrel Model" class="work-thumb">
+                            <div class="work-expand-hint"><span>🔍</span><span>Click to expand</span></div>
+                        </div>
+                        <div class="work-content">
+                            <span class="work-category-badge">3D Modeling</span>
+                            <h3 class="work-title">Simple Barrel Model</h3>
+                            <p class="work-desc">Low-poly 3D wooden barrel game asset model created in Blender.</p>
+                        </div>
+                    </div>
+
+                    <!-- 13. Simple House Model -->
+                    <div class="glass-card work-card" data-category="3d">
+                        <div class="work-thumb-wrap">
+                            <img src="assets/Simple House and Tree Model.png" alt="Simple House Model"
+                                class="work-thumb">
+                            <div class="work-expand-hint"><span>🔍</span><span>Click to expand</span></div>
+                        </div>
+                        <div class="work-content">
+                            <span class="work-category-badge">3D Modeling</span>
+                            <h3 class="work-title">Simple House Model</h3>
+                            <p class="work-desc">Stylized 3D low-poly house structure environment model created in
+                                Blender.</p>
+                        </div>
+                    </div>
+
+                    <!-- 14. CloudSwyft Teaser -->
+                    <div class="glass-card work-card" data-category="video" data-video="assets/CloudSwyft Teaser.mp4">
+                        <div class="work-thumb-wrap">
+                            <img src="assets/cloudswyft teaser logo.jpg" alt="CloudSwyft Teaser" class="work-thumb">
+                            <div class="work-expand-hint"><span>▶</span><span>Click to play video</span></div>
+                        </div>
+                        <div class="work-content">
+                            <span class="work-category-badge">Video Editing</span>
+                            <h3 class="work-title">CloudSwyft Teaser</h3>
+                            <p class="work-desc">Promotional teaser video edit featuring motion graphics, audio sync,
+                                and color grading.</p>
+                        </div>
+                    </div>
+
+                    <!-- 15. E-Book Assessment Cutscene -->
+                    <div class="glass-card work-card" data-category="video" data-video="assets/FINAL CUTSCENE.mp4">
+                        <div class="work-thumb-wrap">
+                            <img src="assets/cutscene cover.jpg" alt="E-Book Assessment Cutscene" class="work-thumb">
+                            <div class="work-expand-hint"><span>▶</span><span>Click to play video</span></div>
+                        </div>
+                        <div class="work-content">
+                            <span class="work-category-badge">Video Editing</span>
+                            <h3 class="work-title">E-Book Assessment Cutscene</h3>
+                            <p class="work-desc">Animated video cutscene sequence produced for the E-Book Assessment
+                                project.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Divider at bottom of section -->
+            <div class="subtle-divider"></div>
+        </section>
+
+        <!-- Projects Section — Featured Projects with GitHub Repos (2 per row) -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="section-title-wrap">
+                    <div class="section-badge">
+                        <span>📂</span>
+                        <span>Featured Projects</span>
+                    </div>
+                    <h2 class="section-title">Featured Projects</h2>
+                    <p class="section-subtitle">Academic & game development projects highlighting my
+                        specific roles, live links, and GitHub repositories.</p>
+                </div>
+
+                <!-- Projects Grid (2 Cards per line) -->
+                <div class="projects-grid">
+                    <!-- Team Project 1: Pamana -->
+                    <div class="glass-card project-card">
+                        <div class="project-thumb-wrap">
+                            <img src="assets/pamana cover.jpg" alt="Pamana Project Preview" class="project-thumb">
+                            <div class="work-expand-hint"><span>🔍</span><span>Click to expand</span></div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-role-badge">
+                                <span>My Role: Game UI Designer & QA Tester</span>
+                            </div>
+                            <h3 class="project-title">Pamana Prototype</h3>
+                            <p class="project-desc">
+                                A cultural narrative game project. Responsible for designing game UI menus, HUD layouts,
+                                HUD wireframes, and conducting systematic QA bug testing and usability feedback.
+                            </p>
+                            <div class="project-contributions">
+                                <span class="chip">Game UI Design</span>
+                                <span class="chip">QA Testing</span>
+                                <span class="chip">Visual Assets</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://github.com/nouzen214/IT9_DatabaseConnectivity" target="_blank"
+                                    rel="noopener" class="project-repo-btn">
+                                    <span>GitHub Repo</span>
+                                    <span>↗</span>
+                                </a>
+                                <a href="https://nouzen214.github.io/IT9_DatabaseConnectivity/" target="_blank"
+                                    rel="noopener" class="project-demo-btn">
+                                    <span>Live Site / Demo</span>
+                                    <span>↗</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Team Project 2: Mood Tracker -->
+                    <div class="glass-card project-card">
+                        <div class="project-thumb-wrap">
+                            <img src="assets/moodtracker.jpg" alt="Mood Tracker Project Preview" class="project-thumb">
+                            <div class="work-expand-hint"><span>🔍</span><span>Click to expand</span></div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-role-badge">
+                                <span>My Role: Documentation & QA Tester</span>
+                            </div>
+                            <h3 class="project-title">Mood Tracker</h3>
+                            <p class="project-desc">
+                                A student wellness tracking web application. Designed screen wireframes in Axure &
+                                Figma, created pastel icon sets, and executed test cases for feature verification.
+                            </p>
+                            <div class="project-contributions">
+                                <span class="chip">UI/UX Design</span>
+                                <span class="chip">QA & Usability</span>
+                                <span class="chip">Documentation</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://github.com/nouzen214/moodtracker-pwa" target="_blank" rel="noopener"
+                                    class="project-repo-btn">
+                                    <span>GitHub Repo</span>
+                                    <span>↗</span>
+                                </a>
+                                <a href="https://nouzen214.github.io/moodtracker-pwa/dashboard.html" target="_blank"
+                                    rel="noopener" class="project-demo-btn">
+                                    <span>Live Site / Demo</span>
+                                    <span>↗</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Team Project 3: E-Book Assessment -->
+                    <div class="glass-card project-card">
+                        <div class="project-thumb-wrap">
+                            <img src="assets/ebook assessment cover.jpg" alt="E-Book Assessment Project Preview"
+                                class="project-thumb">
+                            <div class="work-expand-hint"><span>🔍</span><span>Click to expand</span></div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-role-badge">
+                                <span>My Role: Visual Designer & QA Tester</span>
+                            </div>
+                            <h3 class="project-title">E-Book Assessment</h3>
+                            <p class="project-desc">
+                                An interactive digital e-book assessment platform. Crafted responsive layout assets,
+                                graphic banners, and performed thorough cross-browser QA testing.
+                            </p>
+                            <div class="project-contributions">
+                                <span class="chip">Visual Design</span>
+                                <span class="chip">Software QA</span>
+                                <span class="chip">E-Book Layout</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://github.com/JdReyes-dom/Ebook-Assessment-Page.git" target="_blank"
+                                    rel="noopener" class="project-repo-btn">
+                                    <span>GitHub Repo</span>
+                                    <span>↗</span>
+                                </a>
+                                <a href="https://jdreyes-dom.github.io/Ebook-Assessment-Page/" target="_blank"
+                                    rel="noopener" class="project-demo-btn">
+                                    <span>Live Site / Demo</span>
+                                    <span>↗</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Team Project 4: Future Ready Skills Assessment -->
+                    <div class="glass-card project-card">
+                        <div class="project-thumb-wrap">
+                            <img src="assets/frs preassessment cover.jpg"
+                                alt="Future Ready Skills Assessment Project Preview" class="project-thumb">
+                            <div class="work-expand-hint"><span>🔍</span><span>Click to expand</span></div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-role-badge">
+                                <span>My Role: UI Designer & Documentation Lead</span>
+                            </div>
+                            <h3 class="project-title">Future Ready Skills Assessment</h3>
+                            <p class="project-desc">
+                                An educational assessment portal for student readiness. Created UI mockups, student
+                                dashboard components, and authored complete project documentation.
+                            </p>
+                            <div class="project-contributions">
+                                <span class="chip">UI Design</span>
+                                <span class="chip">Documentation</span>
+                                <span class="chip">Visual Assets</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://github.com/JdReyes-dom/FRS-Assessment-Page.git" target="_blank"
+                                    rel="noopener" class="project-repo-btn">
+                                    <span>GitHub Repo</span>
+                                    <span>↗</span>
+                                </a>
+                                <a href="https://jdreyes-dom.github.io/FRS-Assessment-Page/" target="_blank"
+                                    rel="noopener" class="project-demo-btn">
+                                    <span>Live Site / Demo</span>
+                                    <span>↗</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Team Project 5: CloudSwyft Website (Private Enterprise Access) -->
+                    <div class="glass-card project-card">
+                        <div class="project-thumb-wrap">
+                            <img src="assets/cloudswyft website cover.png" alt="CloudSwyft Website Project Preview"
+                                class="project-thumb">
+                            <div class="work-expand-hint"><span>🔍</span><span>Click to expand</span></div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-role-badge">
+                                <span>My Role: QA Tester & Visual Designer</span>
+                            </div>
+                            <h3 class="project-title">CloudSwyft Website</h3>
+                            <p class="project-desc">
+                                An enterprise virtual lab platform website. Contributed to visual interface enhancements
+                                and conducted quality assurance testing across staging web environments.
+                            </p>
+                            <div class="project-contributions">
+                                <span class="chip">QA Testing</span>
+                                <span class="chip">Visual Editing</span>
+                                <span class="chip">Enterprise Project</span>
+                            </div>
+                            <div class="project-actions">
+                                <div class="project-private-badge">
+                                    <span>Private Enterprise Project (Access Restricted / NDA)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Team Project 6: Digital Values E-Book -->
+                    <div class="glass-card project-card">
+                        <div class="project-thumb-wrap">
+                            <img src="assets/Ebook Cover.jpg" alt="Digital Values E-Book Project Preview"
+                                class="project-thumb">
+                            <div class="work-expand-hint"><span>🔍</span><span>Click to expand</span></div>
+                        </div>
+                        <div class="project-body">
+                            <div class="project-role-badge">
+                                <span>My Role: Visual Designer & E-Book Layout Lead</span>
+                            </div>
+                            <h3 class="project-title">Digital Values E-Book</h3>
+                            <p class="project-desc">
+                                An interactive educational digital values e-book project. Responsible for designing
+                                clean page layouts, visual graphic illustrations, typography hierarchy, and QA review.
+                            </p>
+                            <div class="project-contributions">
+                                <span class="chip">E-Book Design</span>
+                                <span class="chip">Visual Assets</span>
+                                <span class="chip">QA Testing</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="https://github.com/isabelanahawreira-dot/A-Special-Prize" target="_blank" rel="noopener" class="project-repo-btn">
+                                    <span>GitHub Repo</span>
+                                    <span>↗</span>
+                                </a>
+                                <a href="https://isabelanahawreira-dot.github.io/A-Special-Prize/" target="_blank" rel="noopener" class="project-demo-btn">
+                                    <span>Live Site / Demo</span>
+                                    <span>↗</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider at bottom of section -->
+            <div class="subtle-divider"></div>
+        </section>
+
+        <!-- Skills Section — Asymmetrical Bento Box Grid -->
+        <section id="skills" class="section">
+            <div class="container">
+                <div class="section-title-wrap">
+                    <div class="section-badge">
+                        <span>✨</span>
+                        <span>Capabilities</span>
+                    </div>
+                    <h2 class="section-title">Skills & Software Toolkit</h2>
+                    <p class="section-subtitle">A categorized showcase of my technical software toolkit, 3D modeling
+                        environment, and core project workflows.</p>
+                </div>
+
+                <div class="bento-skills-grid">
+                    <!-- Bento Card 1: 3D & Game Engine Studio (Featured) -->
+                    <div class="glass-card bento-card bento-card-featured">
+                        <div class="bento-card-header">
+                            <span class="bento-featured-tag">✨ Core Specialization</span>
+                            <h3 class="bento-card-title">🎮 3D & Game Engine Studio</h3>
+                            <p class="bento-card-desc">Primary software stack for 3D prop modeling, environment design,
+                                and game scene assembly.</p>
+                        </div>
+                        <div class="bento-tool-list">
+                            <div class="bento-tool-item">
+                                <div class="bento-tool-icon">🎨</div>
+                                <div class="bento-tool-info">
+                                    <h4 class="bento-tool-name">Blender</h4>
+                                    <span class="bento-tool-role">3D Asset & Prop Modeling, Shaders & Topology</span>
+                                </div>
+                            </div>
+                            <div class="bento-tool-item">
+                                <div class="bento-tool-icon">🎮</div>
+                                <div class="bento-tool-info">
+                                    <h4 class="bento-tool-name">Unity Engine</h4>
+                                    <span class="bento-tool-role">Game Environment Setup & C# Physics Mechanics</span>
+                                </div>
+                            </div>
+                            <div class="bento-tool-item">
+                                <div class="bento-tool-icon">🎬</div>
+                                <div class="bento-tool-info">
+                                    <h4 class="bento-tool-name">Adobe Animate</h4>
+                                    <span class="bento-tool-role">2D Frame Animation & Animated Video Cutscenes</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bento Card 2: Visual & UI/UX Design Suite -->
+                    <div class="glass-card bento-card">
+                        <div class="bento-card-header">
+                            <h3 class="bento-card-title">📐 Design & UI/UX Suite</h3>
+                            <p class="bento-card-desc">Graphics creation, interactive prototype wireframing, and
+                                publication layouts.</p>
+                        </div>
+                        <div class="bento-tool-list">
+                            <div class="bento-tool-item">
+                                <div class="bento-tool-icon">🖼️</div>
+                                <div class="bento-tool-info">
+                                    <h4 class="bento-tool-name">Photoshop</h4>
+                                    <span class="bento-tool-role">Graphic Editing, Image Assets & Branding</span>
+                                </div>
+                            </div>
+                            <div class="bento-tool-item">
+                                <div class="bento-tool-icon">📐</div>
+                                <div class="bento-tool-info">
+                                    <h4 class="bento-tool-name">Axure RP</h4>
+                                    <span class="bento-tool-role">Wireframing & Interactive UI/UX Prototypes</span>
+                                </div>
+                            </div>
+                            <div class="bento-tool-item">
+                                <div class="bento-tool-icon">✨</div>
+                                <div class="bento-tool-info">
+                                    <h4 class="bento-tool-name">Canva</h4>
+                                    <span class="bento-tool-role">Social Media PubMats & Presentation Graphics</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Bento Card 3: Core Competencies & Workflows (Full Width Banner Card) -->
+                    <div class="glass-card bento-card bento-card-wide">
+                        <div class="bento-card-header">
+                            <h3 class="bento-card-title">🌟 Core Competencies & Workflows</h3>
+                            <p class="bento-card-desc">Essential technical practices across media editing, user testing,
+                                and project documentation.</p>
+                        </div>
+                        <div class="bento-competency-grid">
+                            <div class="bento-comp-box">
+                                <span class="bento-comp-icon">✂️</span>
+                                <div class="bento-comp-details">
+                                    <h4 class="bento-comp-title">Editing & Media</h4>
+                                    <p class="bento-comp-text">Audio-visual sync, motion cuts & promotional grading</p>
+                                </div>
+                            </div>
+                            <div class="bento-comp-box">
+                                <span class="bento-comp-icon">🎨</span>
+                                <div class="bento-comp-details">
+                                    <h4 class="bento-comp-title">UI/UX & Graphics</h4>
+                                    <p class="bento-comp-text">User flow mapping & intuitive visual layout hierarchy</p>
+                                </div>
+                            </div>
+                            <div class="bento-comp-box">
+                                <span class="bento-comp-icon">🔍</span>
+                                <div class="bento-comp-details">
+                                    <h4 class="bento-comp-title">Testing</h4>
+                                    <p class="bento-comp-text">User experience testing, functionality checks & feedback
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="bento-comp-box">
+                                <span class="bento-comp-icon">📝</span>
+                                <div class="bento-comp-details">
+                                    <h4 class="bento-comp-title">Documentation</h4>
+                                    <p class="bento-comp-text">System requirements, user manuals & council logs</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider at bottom of section -->
+            <div class="subtle-divider"></div>
+        </section>
+
+        <!-- Education Section — Timeline Layout -->
+        <section id="education" class="section">
+            <div class="container">
+                <div class="section-title-wrap">
+                    <div class="section-badge">
+                        <span>📚</span>
+                        <span>Academic Journey</span>
+                    </div>
+                    <h2 class="section-title">Education & Credentials</h2>
+                    <p class="section-subtitle">My academic history, game development studies, and official software
+                        certifications.</p>
+                </div>
+
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+
+                    <!-- 1. College Education + Unity Certification -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="glass-card timeline-card">
+                            <span class="timeline-date">2023 — Present</span>
+                            <h3 class="timeline-role">BSIT - Game Development</h3>
+                            <div class="timeline-company">University of Perpetual Help System Laguna (UPHSL)</div>
+                            <p
+                                style="color: var(--text-muted); font-size: 0.95rem; margin-top: 10px; line-height: 1.5;">
+                                Specializing in Game UI design, visual layout design, 3D Blender asset creation, and
+                                software documentation.
+                            </p>
+                            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px;">
+                                <span class="chip">Game UI Design</span>
+                                <span class="chip">Visual Layouts</span>
+                                <span class="chip">3D Modeling</span>
+                                <span class="chip">Animation</span>
+                            </div>
+
+                            <!-- Embedded Certification Container -->
+                            <div class="edu-certifications-box">
+                                <div class="edu-cert-header">
+                                    <span class="edu-cert-icon-badge">🏅</span>
+                                    <h4 class="edu-cert-title">Certifications & Credentials</h4>
+                                </div>
+                                <div style="display: flex; flex-direction: column; gap: 10px;">
+                                    <div class="edu-cert-badge-item">
+                                        <div class="edu-cert-icon">🎮</div>
+                                        <div class="edu-cert-info">
+                                            <h5 class="edu-cert-name">Unity Certified User: Artist</h5>
+                                            <span class="edu-cert-issuer">Issued by Unity Technologies</span>
+                                        </div>
+                                        <span class="edu-cert-tag">Verified</span>
+                                    </div>
+                                    <div class="edu-cert-badge-item">
+                                        <div class="edu-cert-icon">🌐</div>
+                                        <div class="edu-cert-info">
+                                            <h5 class="edu-cert-name">IC3 Living Online - Global Standard 5 Exam</h5>
+                                            <span class="edu-cert-issuer">Issued by Certiport</span>
+                                        </div>
+                                        <span class="edu-cert-tag">Verified</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- 2. High School Education -->
+                    <div class="timeline-item" style="margin-bottom: 0;">
+                        <div class="timeline-dot"></div>
+                        <div class="glass-card timeline-card">
+                            <span class="timeline-date">2021 — 2023</span>
+                            <h3 class="timeline-role">STEM Strand</h3>
+                            <div class="timeline-company">Biñan Integrated National High School</div>
+                            <p
+                                style="color: var(--text-muted); font-size: 0.95rem; margin-top: 10px; line-height: 1.5;">
+                                Science, Technology, Engineering, and Mathematics (STEM) strand with focus on analytical
+                                problem-solving and technical research.
+                            </p>
+                            <div style="display: flex; gap: 8px; flex-wrap: wrap; margin-top: 16px;">
+                                <span class="chip">Problem Solving</span>
+                                <span class="chip">Research & Tech</span>
+                            </div>
+
+                            <!-- Embedded Achievements & Scholarship Box -->
+                            <div class="edu-certifications-box">
+                                <div class="edu-cert-header">
+                                    <span class="edu-cert-icon-badge">🏆</span>
+                                    <h4 class="edu-cert-title">Scholarship Qualifications & Achievements</h4>
+                                </div>
+                                <div style="display: flex; flex-direction: column; gap: 10px;">
+                                    <div class="edu-cert-badge-item">
+                                        <div class="edu-cert-icon">🧪</div>
+                                        <div class="edu-cert-info">
+                                            <h5 class="edu-cert-name">DOST Scholarship Exam Qualifier</h5>
+                                            <span class="edu-cert-issuer">Department of Science and Technology
+                                                (DOST)</span>
+                                        </div>
+                                        <span class="edu-cert-tag"
+                                            style="color: var(--primary); background: rgba(144, 97, 249, 0.1); border-color: rgba(144, 97, 249, 0.25);">Passed
+                                            Exam</span>
+                                    </div>
+                                    <div class="edu-cert-badge-item">
+                                        <div class="edu-cert-icon">🏅</div>
+                                        <div class="edu-cert-info">
+                                            <h5 class="edu-cert-name">Iskolar ng Biñan Ranking Qualifier</h5>
+                                            <span class="edu-cert-issuer">City Government of Biñan • High Ranking
+                                                Scholar Eligibility</span>
+                                        </div>
+                                        <span class="edu-cert-tag"
+                                            style="color: var(--primary); background: rgba(144, 97, 249, 0.1); border-color: rgba(144, 97, 249, 0.25);">Ranked</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Divider at bottom of section -->
+            <div class="subtle-divider"></div>
+        </section>
+
+        <!-- Experience / Student Leadership Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="section-title-wrap">
+                    <div class="section-badge">
+                        <span>🚀</span>
+                        <span>Experience & Leadership</span>
+                    </div>
+                    <h2 class="section-title">Work Experience & Activities</h2>
+                    <p class="section-subtitle">Professional internship experience and student leadership roles.</p>
+                </div>
+
+                <div class="timeline-container">
+                    <div class="timeline-line"></div>
+
+                    <!-- Timeline Item 1: CloudSwyft Internship -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="glass-card timeline-card">
+                            <span class="timeline-date">2026 — Present (Current)</span>
+                            <h3 class="timeline-role">Learning Design Experience (LDX) Intern</h3>
+                            <div class="timeline-company">CloudSwyft</div>
+                            <p style="color: var(--text-muted); font-size: 0.92rem; margin-bottom: 12px;">
+                                Assisting in learning material design, visual course interface enhancements, and
+                                platform content design verification across virtual lab environments.
+                            </p>
+                            <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                                <span class="chip">Learning Material Design</span>
+                                <span class="chip">Course UI Assets</span>
+                                <span class="chip">Visual QA</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2: VP for Documentation -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="glass-card timeline-card">
+                            <span class="timeline-date">2025 — 2026</span>
+                            <h3 class="timeline-role">VP for Documentation</h3>
+                            <div class="timeline-company">College of Computer Studies Student Council (UPHSL)</div>
+                            <p style="color: var(--text-muted); font-size: 0.92rem; margin-bottom: 12px;">
+                                Managed official student organization records, authored event documentation reports,
+                                designed publication graphics (PubMats), and coordinated media archiving.
+                            </p>
+                            <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                                <span class="chip">Event Documentation</span>
+                                <span class="chip">Publication Graphics</span>
+                                <span class="chip">Student Leadership</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 3: Iskolar ng Biñan -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="glass-card timeline-card">
+                            <span class="timeline-date">2023 — Present</span>
+                            <h3 class="timeline-role">Community Scholar & Volunteer</h3>
+                            <div class="timeline-company">Iskolar ng Biñan</div>
+                            <p style="color: var(--text-muted); font-size: 0.92rem; margin-bottom: 12px;">
+                                Actively participating in community outreach programs, donation drives, bloodletting
+                                initiatives, and civic volunteer activities in Biñan.
+                            </p>
+                            <div style="display: flex; gap: 8px; flex-wrap: wrap;">
+                                <span class="chip">Community Outreach</span>
+                                <span class="chip">Donation Drives</span>
+                                <span class="chip">Bloodletting Activity</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Divider at bottom of section -->
+            <div class="subtle-divider"></div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="glass-card contact-wrap">
+                    <div class="contact-grid">
+                        <div class="contact-info-side">
+                            <div class="section-badge" style="margin-bottom: 10px;">
+                                <span>💌</span>
+                                <span>Get In Touch</span>
+                            </div>
+                            <h3>Let's Connect & Collaborate!</h3>
+                            <p>
+                                Interested in visual design, Game UI design, 3D modeling, or project collaboration? Feel
+                                free to reach out directly via email or connect on socials!
+                            </p>
+
+                            <div class="email-copy-box">
+                                <div class="email-address-wrap">
+                                    <span class="email-icon">✉️</span>
+                                    <span class="email-address">isabelanahaw.reira@gmail.com</span>
+                                </div>
+                                <button id="copy-email-btn" class="copy-btn" title="Copy email address to clipboard">
+                                    <span>📋</span>
+                                    <span>Copy Email</span>
+                                </button>
+                            </div>
+
+                            <a href="assets/Samantha_Anahaw_CV.pdf" target="_blank" download="Samantha_Anahaw_CV.pdf" class="contact-cv-banner">
+                                <div class="contact-cv-info">
+                                    <span class="contact-cv-icon">📄</span>
+                                    <div>
+                                        <div class="contact-cv-title">Curriculum Vitae (CV)</div>
+                                        <div class="contact-cv-subtitle">PDF format • Samantha Isabel Anahaw</div>
+                                    </div>
+                                </div>
+                                <span class="contact-cv-btn-badge">
+                                    <span>Download</span>
+                                    <span>⬇</span>
+                                </span>
+                            </a>
+
+                            <div class="contact-social-buttons">
+                                <a href="https://github.com/isabelanahawreira-dot" target="_blank" rel="noopener"
+                                    class="social-contact-btn">
+                                    <span>💻</span>
+                                    <span>GitHub</span>
+                                    <span>↗</span>
+                                </a>
+                                <a href="https://www.linkedin.com/in/samantha-isabel-anahaw-95a4b4419/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_all%3B88FqkQgiR46z9ZuGRXkXAQ%3D%3D"
+                                    target="_blank" rel="noopener" class="social-contact-btn">
+                                    <span>💼</span>
+                                    <span>LinkedIn</span>
+                                    <span>↗</span>
+                                </a>
+                                <a href="https://www.facebook.com/samm.isaabel" target="_blank" rel="noopener"
+                                    class="social-contact-btn">
+                                    <span>🌐</span>
+                                    <span>Facebook</span>
+                                    <span>↗</span>
+                                </a>
+                                <a href="https://www.instagram.com/nekooreira?stkn=MWszMXlxNnN6Y3lvNA==" target="_blank"
+                                    rel="noopener" class="social-contact-btn">
+                                    <span>📸</span>
+                                    <span>Instagram</span>
+                                    <span>↗</span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Visual Avatar Side -->
+                        <div class="contact-visual-side">
+                            <div class="avatar-card-wrap">
+                                <div class="avatar-glow-ring"></div>
+                                <div class="avatar-card">
+                                    <img src="assets/sam image.jpg" alt="Samantha Contact Photo" class="avatar-img">
+                                    <div class="avatar-badge-tag">
+                                        <span>🌸</span>
+                                        <span>Let's Create Together</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p style="color: var(--text-muted); font-size: 0.9rem;">
+                © 2026 Samantha • BSIT Game Development Portfolio
+            </p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal for Full Uncropped Image View -->
+    <div id="works-modal" class="modal-overlay" aria-hidden="true" role="dialog" aria-modal="true">
+        <div class="modal-backdrop"></div>
+        <div class="modal-card">
+            <button id="modal-close-btn" class="modal-close-btn" aria-label="Close modal" title="Close (Esc)">✕</button>
+            <div class="modal-body">
+                <div class="modal-img-container">
+                    <img id="modal-img" src="" alt="Full view of creative work" class="modal-img">
+                    <video id="modal-video" controls class="modal-video" style="display: none; width: 100%; max-height: 75vh; border-radius: var(--radius-md); object-fit: contain;"></video>
+                </div>
+                <div class="modal-info">
+                    <span id="modal-category" class="work-category-badge">Category</span>
+                    <h3 id="modal-title" class="modal-title">Work Title</h3>
+                    <p id="modal-desc" class="modal-desc">Detailed description of the creative work...</p>
+                    <div id="modal-actions" class="modal-actions" style="display: none; margin-bottom: 20px;"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast Notification -->
+    <div id="toast-notification" class="toast-notification">
+        <span>🌸</span>
+        <span>Email copied to clipboard!</span>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top-btn" class="back-to-top-btn" aria-label="Back to Top" title="Back to top">
+        ↑
+    </button>
+
+    <!-- Scripts -->
+    <script src="js/background.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
